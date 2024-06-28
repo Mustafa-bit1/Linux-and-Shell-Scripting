@@ -32,7 +32,8 @@ Linux  -         6.3%
 Others -       4.7%
 
 
-![pie](https://github.com/Mustafa-bit1/Linux-and-Shell-scripting/assets/172354785/3b4d663e-0979-412a-a012-edbf3b5a62d4)
+![pie](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/a37b8334-f48e-4711-b0fe-09bf6844c501)
+
 
 Reference - https://gs.statcounter.com/os-market-share/desktop/worldwide
 
@@ -140,17 +141,20 @@ Some popular ones are
 -> Manjaro.
 
 
+![most-popular-linux-distro](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/dc924da8-f7d8-4835-a98c-98c6daec0c3f)
 
-![most-popular-linux-distro](https://github.com/Mustafa-bit1/Linux-and-Shell-scripting/assets/172354785/275d30c4-9269-4263-bd31-03ca324db8be)
+
 
 ### Architecture
 
-![linux archi](https://github.com/Mustafa-bit1/Linux-and-Shell-scripting/assets/172354785/12b88c56-0cea-4135-9f2d-192a33bd0faf)
+![linux archi](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/3e734eb0-d8fa-4450-b4f5-d9a17c391450)
+
 
 # Some most useful commands in linux
 
 
-![top-50-linux-commands](https://github.com/Mustafa-bit1/Linux-and-Shell-scripting/assets/172354785/3b87e90c-62ac-4773-96d2-1b752b0a7ed1)
+![top-50-linux-commands](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/71acb22c-a005-4d7b-ba52-5affaf05ba33)
+
 
 
 ### File and Directory Management
