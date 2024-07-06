@@ -143,9 +143,10 @@ Some popular ones are
 
 ![most-popular-linux-distro](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/dc924da8-f7d8-4835-a98c-98c6daec0c3f)
 
-
-
+### My Linux os - Ubuntu
+![ubu](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/137ef0ce-1f23-4533-8d28-665d6592af6c)
 ### Architecture
+
 
 ![linux archi](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/3e734eb0-d8fa-4450-b4f5-d9a17c391450)
 
@@ -483,6 +484,101 @@ auditd - User space component to collect audit records
 selinux - Manage SELinux policies and contexts
 
 
+# Shell Scripting
+Shell scripting is the practice of writing scripts, or sequences of commands, to be executed by the shell, a command-line interpreter in Unix-like operating systems such as Linux and macOS. Shell scripts automate repetitive tasks, manage system operations, and streamline complex workflows.
+
+Key Components of Shell Scripting
+Shell: The shell is a command-line interface (CLI) that provides a user interface for accessing the operating system's services. Common shells include Bash (Bourne Again Shell), Zsh (Z Shell), and Ksh (Korn Shell).
+
+Script: A shell script is a file containing a series of commands that the shell can execute. These scripts are used to automate tasks that would otherwise be performed interactively at the command line.
+
+### Shell is broadly classified into two categories –
+
+Command Line Shell
+
+1. Command Line Shell
+2. Graphical shell
+
+#### Command Line Shell
+Shell can be accessed by users using a command line interface. A special program called Terminal in Linux/macOS, or Command Prompt in Windows OS is provided to type in the human-readable commands such as “cat”, “ls” etc. and then it is being executed. The result is then displayed on the terminal to the user. A terminal in Ubuntu 16.4 system looks like this –
 
 
+![ubu](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/13ae30bc-0035-45ad-9bd7-bb4eb7fd2c16)
 
+Command Line Shell allows users to store commands in a file and execute them together. This way any repetitive task can be easily automated. These files are usually called batch files in Windows and Shell Scripts in Linux/macOS systems.
+
+#### Graphical Shells
+Graphical shells provide means for manipulating programs based on the graphical user interface (GUI), by allowing for operations such as opening, closing, moving, and resizing windows, as well as switching focus between windows. Window OS or Ubuntu OS can be considered as a good example which provides GUI to the user for interacting with the program. Users do not need to type in commands for every action. A typical GUI in the Ubuntu system –
+
+![GUI-shell](https://github.com/Mustafa-bit1/Linux-and-Shell-Scripting/assets/172354785/69db17d7-b654-4d9f-9a33-d6e8f675d133)
+
+#### Why do we need shell scripts?
+There are many reasons to write shell scripts:
+
+> To avoid repetitive work and automation
+
+> System admins use shell scripting for routine backups.
+
+> System monitoring
+
+> Adding new functionality to the shell etc.
+
+#### Some Advantages of shell scripts
+> The command and syntax are exactly the same as those directly entered in the command line, so programmers do not need to switch to entirely different syntax
+
+> Writing shell scripts are much quicker
+
+> Quick start
+
+> Interactive debugging etc.
+
+#### Some Disadvantages of shell scripts
+> Prone to costly errors, a single mistake can change the command which might be harmful.
+
+> Slow execution speed
+
+> Design flaws within the language syntax or implementation
+
+> Not well suited for large and complex task
+
+> Provide minimal data structure unlike other scripting languages. etc.
+
+#### Reference GeeksforGeeks https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/amp/
+
+### Steps to run a script 
+1. Create a New File : Use a text editor to create a new file. You can use editors like nano, vim, or gedit, or create the file directly from the command line.
+
+```bash
+  vi myscript.sh
+```
+2. Add the Shebang : The first line of the script should be the shebang (#!), which specifies the interpreter that will execute the script. For a Bash script, it would look like this:
+
+```bash
+  #!/bin/bash
+```
+
+3. Write Your Script : Add the commands you want to be executed.
+   
+```bash
+  #!/bin/bash
+
+  name=Mustafa
+  city=Bangalore
+
+  echo "Hello $name Welcome to $city"
+```
+4. Save and Close the File
+5.  Make the Script Executable and run The Script: Change the file permissions to make the script executable. Use the chmod command and run using ./myscript.sh
+
+```bash
+  chmod +x myscript.sh   // Permisions to execute
+  ./myscript.sh         // Run
+
+```
+### Output
+```bash
+  Hello Mustafa Welcome to Bangalore
+
+```
+    
+   
